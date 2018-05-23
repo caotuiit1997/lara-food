@@ -1,0 +1,9 @@
+@extends('welcome')
+@section('title','Homepage')
+@section('content')
+	@include('layouts/slides')
+	@include('layouts/best_dishes')
+	@include('layouts/book_online')
+	@include('layouts/map')
+	@include('layouts/contact')
+@stop
